@@ -11,3 +11,12 @@ Une application mobile en React Native permettant de prendre des photos avec l'a
 - 🖼 Galerie avec affichage des images sauvegardées
 - 🗑 Suppression des photos avec mise à jour immédiate
 - ⚙️ Gestion de l'état global avec Redux
+
+## 🛠️ Installation
+
+```bash
+git clone https://github.com/Baptiste-Borie/photoApp.git
+cd ItunesSeeker
+npm install
+npx expo start
+```
