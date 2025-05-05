@@ -1,5 +1,7 @@
 # 📸 PhotoApp
 
+Binome : Sacha Clément & Baptiste Borie
+
 Une application mobile en React Native permettant de prendre des photos avec l'appareil photo du téléphone, de les sauvegarder et de les afficher dans une galerie.
 
 ---
