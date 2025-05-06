@@ -14,6 +14,7 @@ const GalleryScreen = () => {
   const dispatch = useDispatch();
   const photos = useSelector(GallerySelector);
 
+  // Function to render each photo item in the FlatList
   const renderItem = ({ item, index }) => (
     <View style={styles.photoContainer}>
       <Image

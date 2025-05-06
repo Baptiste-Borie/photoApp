@@ -13,6 +13,7 @@ const CameraScreen = () => {
 
   const cameraRef = useRef(null);
 
+  // Check if the camera permission is granted
   if (!permission) {
     return <View />;
   }
@@ -28,10 +29,12 @@ const CameraScreen = () => {
     );
   }
 
+  // Function to toggle the camera facing direction
   function toggleCameraFacing() {
     setFacing((current) => (current === "back" ? "front" : "back"));
   }
 
+  // Function to save the photo to the device and return the new URI
   const savePhoto = async (photo) => {
     try {
       const uri = photo.uri;
